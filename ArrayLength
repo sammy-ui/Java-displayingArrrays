@@ -1,0 +1,18 @@
+
+/* the shortcut way to create an array and
+initialize it with specific values. Instead of saying new int[10] we've
+used curly braces and separated each value with a comma */
+
+package displayingArrays;
+
+public class ArrayLength {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] arr = {1,2,3,4,5,6,7,8,9,10};
+		
+		System.out.println(arr.length);
+	}
+
+}
